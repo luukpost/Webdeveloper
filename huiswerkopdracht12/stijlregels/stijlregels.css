@@ -14,15 +14,19 @@ footer{
 body{
   margin: 0;
   }
+table, tr{
+  margin:0 auto;
+  }
 td{
   width: 75px;
   height: 50px;
   border: 1px solid;
   border-color: black;
+  margin: 0;
   }
 img{
-  width: 74;
-  height: 49;
+  width: 74px;
+  height: 49px;
   }
 #cel1{
   background-color: #FFFFFF;
