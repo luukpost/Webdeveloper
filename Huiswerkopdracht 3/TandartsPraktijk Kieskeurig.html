@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Afspraak maken</title>
+  </head>
+  <body>
+    <h1>Tandartsafspraak</h1>
+    <p style="width:900px;">
+      Voor het maken van afspraken en/of het inschrijven als nieuwe patient bij onze praktijk, verzoeken wij u uw gegevens hier zo volledig mogelijk in te vullen. Wij zullen u dan zo spoedig mogelijk telefonisch benaderen.
+      <br>
+      <br>
+      Uiteraard kunt u tijdens openingstijden ook bij ons naar binnen lopen, voor zowel nieuwe inschrijvingen als voor het maken van afspraken. Mocht dit allemaal niet gaan dan kunt u dat ook telefonisch doen.
+    </p>
+    <p>
+      Tel: <a href="tel:0302881388">030 – 2881388</a>
+      <br>
+      E-mail: <a href="mailto:utrecht@staalwijktandarts.nl?subject=Afspraak maken">utrecht@staalwijktandarts.nl</a>
+    </p>
+    <figure style="width:910px">
+      <figcaption><h2 style="text-align:center;">Ontmoet het team</h2></figcaption>
+      <img src="Afbeeldingen/ataher.jpg" alt="A Taher" style="width:300px">
+      <img src="Afbeeldingen/btaher.jpg" alt="B Taher" style="width:300px">
+      <img src="Afbeeldingen/jellyvdbrugge.jpg" alt="J vd Brugge" style="width:300px">
+    </figure>
+    <p>Wil je een afspraak maken, vul dan onderstaand formulier in en we nemen binnen 1 werkdag contact met je op.</p>
+    <form class="Afspraakformulier" action="https://formspree.io/f/mqkjaova" method="post">
+      <fieldset style="width:900px">
+        <legend>Persoonsgegevens
+        </legend>
+        <label for="Voornaam Achternaam"><em>Voornaam en achternaam</em></label>
+        <br>
+        <input type="text" id="Voornaam" name="Voornaam" placeholder="Voornaam" >
+        <input type="text" id="Voornaam" name="Achternaam" placeholder="Achternaam" >
+        <br>
+        <label for="Adresgegevens"><em>Adresgegevens:</em></label>
+        <br>
+        <input type="text" id="Adresgegevens" name="Straatnaam" value="" placeholder="Straatnaam">
+        <input type="number" id="Adresgegevens" name="huisnummer" min="0" value="" style="width:40px">
+        <input type="text" id="Adresgegevens" name="Postcode" value="" placeholder="Postcode" style="width:80px">
+        <br>
+        <label for="Email"><em>E-mailadres:</em></label>
+        <br>
+        <input type="email" id="Email" name="E-mail" value="" placeholder="E-mailadres">
+      </fieldset>
+      <fieldset style="width:900px">
+        <legend>Omschrijf uw klachten</legend>
+        <label for="klachten"><strong>Waarvoor wilt u langskomen?</strong></label>
+        <br>
+        <input type="checkbox" id="klachten" name="klachten" value="kiespijn">kiespijn
+        <input type="checkbox" id="klachten" name="klachten" value="kiespijn">Controle
+        <input type="checkbox" id="klachten" name="klachten" value="kiespijn">Schoonmaakdienst
+        <input type="checkbox" id="klachten" name="klachten" value="kiespijn">Tandheelkundig advies
+        <br>
+        <label for="bijlagen"><strong>Heeft u bijlagen?</strong><br><em>Zoals foto's, verwijsbrieven of andere relevante bestanden</em></label>
+        <br>
+        <input type="file" id="bijlagen" name="Bijlages" accept="image/jpeg, image/x-png, application/pdf" multiple value="Bijlages toevoegen">
+      </fieldset>
+      <fieldset style="width:900px">
+        <legend>Extra toelichting</legend>
+        <label for="Uitleg"><em>Meer informatie:</em></label>
+        <br>
+        <textarea name="bericht" id="Uitleg" maxlength="1500" placeholder="Omschrijf uw klachten, hoe lang u ze al heeft en wat u er zelf al aan gedaan heeft" style="width: 450px; height:200px"></textarea>
+        <br>
+        <label for="Datumkiezer"><strong>Kies een datum</strong></label>
+        <br>
+        <input type="date" id="Datumkiezer" name="Datum" value="">
+        <br>
+      </fieldset>
+      <br>
+      <button type="submit" name="verzenden">Afspraak maken</button>
+    </form>
+    <footer>
+      <p><em>Deze website is gemaakt door Luuk Post, alle rechten voorbehouden</em></p>
+    </footer>
+  </body>
+</html>
