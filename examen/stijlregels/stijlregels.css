@@ -14,6 +14,7 @@ footer{
   text-align: center;
   background-color: #be5505;
   font-size: 10px;
+  padding: 20px 0px;
 }
 
 p.header, h1.header {
@@ -73,8 +74,6 @@ hr{
 .linkerbalk{
   background-color: #ffb785;
   text-align: center;
-  border: solid #ffdbc3;
-  border-width: 0px 2px 0px 0px;
 }
 
 h2{
@@ -180,6 +179,11 @@ input, select, textarea{
     .navigatie{
       display: inline-block;
       padding: 5px 20px;
+    }
+
+    .linkerbalk{
+      border: solid #ffdbc3;
+      border-width: 0px 2px 0px 0px;
     }
 
     div.body{
