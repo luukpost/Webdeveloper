@@ -1,0 +1,220 @@
+header {
+  background-color: #f5720c;
+  color: white;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+footer{
+  color: black;
+  padding: 2px;
+  text-align: center;
+  background-color: #be5505;
+  font-size: 10px;
+}
+
+p.header, h1.header {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+nav{
+  background-color: #be5505;
+  text-align: left;
+  border-bottom: 3px solid #ffd601;
+}
+
+.navigatie{
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-left: 1px solid #be5505;
+  border-right: 1px solid #be5505;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: black;
+  background-color: #f5720c;
+  border-left: 1px solid #ffd601;
+  border-right: 1px solid #ffd601;
+}
+
+img{
+  width: 25%;
+  margin: 20px;
+}
+
+img.linkerbalk {
+  width: 75%;
+  margin: 20px;
+  max-height: 50%;
+  border: none;
+}
+
+li{
+  text-align: left;
+}
+
+p.voorwaarden{
+  padding: 2px 20px;
+}
+
+hr{
+  margin: 0px 15px;
+}
+
+.linkerbalk{
+  background-color: #ffb785;
+  text-align: center;
+  border: solid #ffdbc3;
+  border-width: 0px 2px 0px 0px;
+}
+
+h2{
+  padding: 20px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  text-align: left;
+}
+
+p, h3{
+  text-align: left;
+  padding: 5px 20px 20px 20px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+p.footer{
+  text-align: center;
+  font-size: 15px;
+}
+
+h2.rechterzijde{
+  color: #bd5608;
+}
+
+.verzenden{
+  color: white;
+  background-color: #be5505;
+  width: 75px;
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+}
+
+form{
+  padding: 0px 15px;
+}
+
+input, select, textarea{
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid black 2px;
+}
+
+.profielfotoRechts{
+  display: block;
+  float: right;
+  margin: 0px 20px;
+  height: 300px;
+  width: auto;
+}
+
+.profielfotoLinks{
+  display: block;
+  float: left;
+  margin: 0px 10px 20px 10px;
+  height: 300px;
+  width: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  [class*="col-"]{
+    display: block;
+    float: left;
+      }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    h1.header {
+      padding: 50px 0 20px 0;
+      width: 100%;
+      margin: 0;
+    }
+
+    #actief{
+      background-color: #f5720c;
+      pointer-events: none;
+      border-left: 1px solid #f5720c;
+      border-right: 1px solid #f5720c;
+    }
+    
+    p.header {
+      padding: 0 0 50px 0;
+      width: 100%;
+      margin: 0;
+    }
+
+    footer{
+      padding: 10px;
+    }
+
+    .navigatie{
+      display: inline-block;
+      padding: 5px 20px;
+    }
+
+    div.body{
+      height: 100%;
+      float: left;
+      display: block;
+      position: relative;
+      top: auto;
+      bottom: auto;
+    }
+
+    div.linkerbalk {
+      display: block;
+      float: left;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    img.linkerbalk {
+      width: 380px;
+      margin: 20px;
+      width: 75%;
+    }
+
+    img{
+      width: 380px;
+      margin: 20px;
+    }
+
+    div.rechterzijde{
+      display: block;
+      float: right;
+    }
+
+  }
